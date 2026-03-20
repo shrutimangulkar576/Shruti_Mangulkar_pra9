@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> saraswati College</title>
+
+    <!-- Mobile Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav {
+            background-color: #0055a5;
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            text-align: center;
+            border-top: 1px solid rgba(255,255,255,0.3);
+        }
+
+        nav a:hover {
+            background-color: #003f7f;
+        }
+
+        section {
+            padding: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        /* Tablet & Desktop View */
+        @media (min-width: 768px) {
+            nav {
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            nav a {
+                flex: 1;
+                border: none;
+            }
+
+            .container {
+                display: flex;
+                gap: 15px;
+            }
+
+            .card {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>sarswati  College</h1>
+    <p>Empowering Students for the Future</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Courses</a>
+    <a href="#">Admissions</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <div class="card">
+        <h2>About Our College</h2>
+        <p> sarswati College provides quality education with modern infrastructure and experienced faculty.</p>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>Courses Offered</h2>
+            <ul>
+            <li>BCA(Bachelor of computer Applications)</li>
+            <li>BBA(Bachelor of Business Administration)</li>
+            <li>MCA(Master of computer Applications)</li>
+            <li>IMCA(Integrated master of computer Application)</li
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Latest News</h2>
+            <p>Admissions open for 2026 batch.</p>
+            <p>Annual sports meet next month.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    &copy; 2026 saraswati College | All Rights Reserved
+</footer>
+
+</body>
+</html>
